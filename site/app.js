@@ -4,45 +4,45 @@ const phases = {
   shadow: {
     number: '01',
     meter: '25%',
-    title: 'Bring up an agent alongside the SaaS app.',
-    copy: 'We observe the work, map the screens, catalogue the API/export options, and create the first natural-language routes for common jobs.',
+    title: 'Seat the agent inside the SaaS app.',
+    copy: 'We add the agent as a normal authorized user, teach it the app, map the screens, catalogue API/export options, and connect the first adjacent systems such as email.',
     bullets: [
-      'Capture the human workflows that keep the app alive.',
-      'Record reliable browser procedures and validation checks.',
-      'Identify the minimum seat footprint needed for safe operation.'
+      'Capture the human workflows and inbox handoffs that keep the app alive.',
+      'Record reliable browser routes, validation checks, and approval points.',
+      'Identify the minimum SaaS footprint needed for safe operation.'
     ]
   },
   conduit: {
     number: '02',
-    meter: '48%',
-    title: 'Route requests through the aSaaSinators conduit.',
-    copy: 'Humans stop logging into the SaaS product for routine work. They ask the agent, and the agent chooses API, export/sync, or browser operation.',
+    meter: '50%',
+    title: 'Make the agent the front door for work.',
+    copy: 'Questions, jobs, reports, and data requests route to the agent before anyone opens the SaaS UI. The agent facilitates the request through email, API, export, sync, or browser operation.',
     bullets: [
-      'Turn questions and jobs into prompt-based commands.',
+      'Turn personal information needs into natural-language requests.',
       'Centralize audit trails, permissions, and exception handling.',
-      'Keep the SaaS app functioning while the team changes habits gradually.'
+      'Reach phase one when routine user queries flow to the agent first.'
     ]
   },
   compress: {
     number: '03',
-    meter: '72%',
-    title: 'Replace many paid human seats with one controlled agent seat.',
-    copy: 'As confidence grows, seat sprawl collapses. One browser-capable agent can do the bidding of many people while preserving review checkpoints.',
+    meter: '74%',
+    title: 'Compress human licenses to the operational minimum.',
+    copy: 'As confidence grows, the team stops renting UI seats just to ask questions or move data between systems. The controlled agent seat keeps the old SaaS available in the background.',
     bullets: [
-      'Remove licenses from people who only need outcomes, not the UI.',
+      'Remove licenses from people who only need outcomes, not the interface.',
       'Use human approval for sensitive operations and autonomous execution for safe routines.',
-      'Measure human visits until the SaaS interface reaches zero routine traffic.'
+      'Measure direct SaaS visits until routine human traffic reaches zero.'
     ]
   },
   replace: {
     number: '04',
     meter: '100%',
-    title: 'Mirror the data, rebuild the valuable components, and retire the app.',
-    copy: 'The SaaS data shape becomes an owned operating model. Dashboards, forms, search, approvals, and reports become targeted components or agent skills.',
+    title: 'Answer without SaaS data calls, then cut off invisibly.',
+    copy: 'The mirrored model and owned components take over dashboards, reports, approvals, search, and reminders until critical answers no longer require the vendor app.',
     bullets: [
-      'Build a unitary model across several SaaS apps when the org needs one.',
-      'Replace UI elements one by one instead of forcing a cutover weekend.',
-      'Turn cancellation from a risky migration into a final switch-off.'
+      'Build a unitary model across email, exports, APIs, and SaaS objects.',
+      'Replace useful UI elements one by one instead of forcing a cutover weekend.',
+      'Turn cancellation from a risky migration into a final switch nobody feels.'
     ]
   }
 };
