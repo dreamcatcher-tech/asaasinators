@@ -1,6 +1,6 @@
 # aSaaSinators
 
-**A-S-A-A-S-I-N-A-T-O-R-S** — a static GitHub Pages site for the service that helps companies retire SaaS dependency with agents.
+A static GitHub Pages site for the service that helps companies retire SaaS dependency with agents.
 
 ## What this repo contains
 
@@ -24,6 +24,7 @@ The page describes a graceful SaaS off-ramp:
 
 1. Bring up an agent alongside a SaaS app.
 2. Route user jobs and questions through the agent first.
-3. Reduce human seats while one controlled browser/API/export conduit keeps the old app alive.
-4. Mirror the data structures and rebuild useful UI components as owned agent workflows.
-5. Turn the SaaS app off once human UI visits and critical data calls reach zero.
+3. Collapse tangled SaaS integrations into one agent-mediated surface.
+4. Reduce human seats while one controlled browser/API/export conduit keeps the old app alive.
+5. Mirror the data structures and rebuild useful UI components as owned agent workflows.
+6. Turn the SaaS app off once human visits and critical data calls reach zero.

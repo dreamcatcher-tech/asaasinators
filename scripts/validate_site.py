@@ -13,6 +13,8 @@ REQUIRED_FILES = [
     SITE / "index.html",
     SITE / "styles.css",
     SITE / "app.js",
+    SITE / "assets" / "agent-conduit.png",
+    SITE / "assets" / "integration-collapse.png",
     SITE / ".nojekyll",
     ROOT / ".github" / "workflows" / "pages.yml",
     ROOT / "README.md",
@@ -21,12 +23,13 @@ REQUIRED_FILES = [
 REQUIRED_HTML = [
     "aSaaSinators",
     "Choked by SaaS",
-    "Stop paying UI rent",
+    "Stop paying legacy rent",
     "API / export / browser",
+    "Stop wiring every SaaS app",
+    "Annual legacy SaaS rent today",
     "One seat is added",
     "Human UI visits",
     "Browser operation",
-    "A-S-A-A-S-I-N-A-T-O-R-S",
 ]
 
 REQUIRED_CSS = [

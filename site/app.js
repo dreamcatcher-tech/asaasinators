@@ -79,8 +79,9 @@ const appsValue = document.querySelector('#appsValue');
 const seatsValue = document.querySelector('#seatsValue');
 const costValue = document.querySelector('#costValue');
 const currentCost = document.querySelector('#currentCost');
-const futureCost = document.querySelector('#futureCost');
-const savings = document.querySelector('#savings');
+const annualCurrent = document.querySelector('#annualCurrent');
+const annualFuture = document.querySelector('#annualFuture');
+const annualSavings = document.querySelector('#annualSavings');
 
 function updateCalculator() {
   const appCount = Number(apps.value);
@@ -89,12 +90,16 @@ function updateCalculator() {
   const current = appCount * seatCount * monthlySeat;
   const compressed = appCount * monthlySeat;
   const delta = Math.max(0, current - compressed);
+  const annualCurrentValue = current * 12;
+  const annualFutureValue = compressed * 12;
+  const annualDeltaValue = delta * 12;
   appsValue.textContent = appCount;
   seatsValue.textContent = seatCount;
   costValue.textContent = money.format(monthlySeat);
+  annualCurrent.textContent = `${money.format(annualCurrentValue)}/yr`;
+  annualFuture.textContent = `${money.format(annualFutureValue)}/yr`;
+  annualSavings.textContent = `${money.format(annualDeltaValue)}/yr`;
   currentCost.textContent = `${money.format(current)}/mo`;
-  futureCost.textContent = `${money.format(compressed)}/mo`;
-  savings.textContent = `${money.format(delta)}/mo`;
 }
 [apps, seats, cost].forEach(input => input.addEventListener('input', updateCalculator));
 updateCalculator();
