@@ -359,12 +359,12 @@ h3 { font-size: clamp(1.3rem, 2vw, 2rem); }
   font-size: clamp(1.35rem, 3vw, 2.9rem);
   font-weight: 950;
   letter-spacing: -.06em;
-  color: rgba(255,255,255,.22);
+  color: rgba(255,255,255,.42);
   text-transform: uppercase;
   white-space: nowrap;
 }
-.marquee span:nth-child(3n) { color: rgba(182,255,93,.3); }
-.marquee span:nth-child(4n) { color: rgba(255,77,141,.28); }
+.marquee span:nth-child(3n) { color: rgba(182,255,93,.58); }
+.marquee span:nth-child(4n) { color: rgba(255,77,141,.54); }
 
 .section-shell {
   width: min(calc(100% - 32px), var(--max));
