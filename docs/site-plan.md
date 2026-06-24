@@ -20,7 +20,7 @@ The page should immediately say that aSaaSinators helps teams get there without 
 2. **Proof strip:** Lead with customer benefits, not the internal “one seat” tactic.
 3. **Thesis:** Explain why agents changed the SaaS cost curve and why generic SaaS UI is now a liability.
 4. **Human-glue / integration section:** Show that companies use people to bridge many tools and that agents collapse those handoffs.
-5. **Process:** Show the single-seat entry tactic in context: seat the agent, make it the front door, compress seats, replace data calls.
+5. **Process:** Show the single-seat entry tactic in context: seat the agent, make it the front door, compress seats, replace data calls. Each tab state needs a synchronized visual diagram that makes the stage legible without relying only on text.
 6. **Operating model:** Explain requests, facilitation, data model, and component replacement.
 7. **Graphs:** Show the two gates: user queries route through agent, then SaaS data calls go to zero.
 8. **Access ladder:** Explain API/export/browser fallback.
@@ -33,7 +33,7 @@ The page should immediately say that aSaaSinators helps teams get there without 
 - Dark premium B2B landing page.
 - Neon lime/magenta against black/navy.
 - Generated artwork should be text-free, logo-free, and abstract.
-- Graphs should be legible at desktop/tablet/mobile sizes.
+- Graphs and phase visuals should be legible at desktop/tablet/mobile sizes.
 - No build step; static HTML/CSS/JS only.
 
 ## Copy constraints

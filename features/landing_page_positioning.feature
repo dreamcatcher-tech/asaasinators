@@ -22,3 +22,10 @@ Feature: aSaaSinators landing page positioning
     Then phase one should be complete when user questions, reports, and jobs route to the agent instead of the SaaS UI
     And final cutoff should happen when critical answers no longer require SaaS data calls
     And cancellation should be framed as an invisible switch, not a big-bang cliff
+
+  Scenario: Show a visual for every assassination stage
+    Then each process tab should render a synchronized high-quality visual with the selected phase
+    And the Seat visual should show the agent entering as one authorized user
+    And the Route visual should show requests flowing through the agent front door
+    And the Compress visual should show human SaaS seats shrinking
+    And the Cut off visual should show owned workflows answering without SaaS data calls

@@ -72,7 +72,8 @@ The ideal outcome is invisible cancellation: the vendor app disappears and not a
 2. SaaS traps companies because humans become the glue between generic tools.
 3. The agent starts as one normal authorized user, but quickly becomes the front door for work.
 4. Requests, questions, reports, and data access flow through the agent.
-5. Seats compress when humans stop visiting the SaaS UI.
-6. Data dependency burns down as the owned model and replacement components grow.
-7. Cutoff happens when humans and data calls both reach zero.
-8. Cancellation becomes a switch, not a migration cliff.
+5. Each process stage has a high-quality synchronized visual so the assassination logic is obvious when a visitor clicks the stage.
+6. Seats compress when humans stop visiting the SaaS UI.
+7. Data dependency burns down as the owned model and replacement components grow.
+8. Cutoff happens when humans and data calls both reach zero.
+9. Cancellation becomes a switch, not a migration cliff.

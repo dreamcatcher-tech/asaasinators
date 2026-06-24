@@ -54,6 +54,15 @@ The first milestone is not “we rebuilt the whole app.” It is: **all user que
 
 The final cutoff is: **the agent can continue answering the work without data calls to the SaaS platform.** At that point the SaaS app can be cancelled invisibly.
 
+## Process-stage visuals
+
+The process tabs need a high-quality synchronized visual for every click state so the assassination stages are not text-only:
+
+1. Seat: agent seated as one authorized SaaS user while routes are mapped.
+2. Route: requests flowing through the agent front door.
+3. Compress: human SaaS seats shrinking to the safe minimum.
+4. Cut off: owned workflows answering without SaaS data calls.
+
 ## Language to use
 
 - “front door for work”

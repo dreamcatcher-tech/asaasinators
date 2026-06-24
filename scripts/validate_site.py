@@ -43,6 +43,7 @@ REQUIRED_HTML = [
     "Data calls fall to zero",
     "Annual legacy SaaS rent today",
     "Browser operation",
+    "phase-visual",
 ]
 
 REQUIRED_SOURCE_COPY = [
@@ -51,6 +52,7 @@ REQUIRED_SOURCE_COPY = [
     "humans as the integration layer",
     "all user queries in the organization come into the agent",
     "without data calls to the SaaS platform",
+    "high-quality synchronized visual",
 ]
 
 REQUIRED_FEATURE_TEXT = [
@@ -58,6 +60,8 @@ REQUIRED_FEATURE_TEXT = [
     "front door for work",
     "final cutoff",
     "no-build",
+    "synchronized high-quality visual",
+    "owned workflows answering without SaaS data calls",
 ]
 
 REQUIRED_CSS = [
@@ -66,6 +70,8 @@ REQUIRED_CSS = [
     "prefers-reduced-motion",
     "--lime",
     "--pink",
+    ".phase-art",
+    ".phase-visual",
 ]
 
 REQUIRED_JS = [
@@ -75,6 +81,11 @@ REQUIRED_JS = [
     "Answer without SaaS data calls",
     "updateCalculator",
     "IntersectionObserver",
+    "phaseVisuals",
+    "Authorized foothold",
+    "One front door",
+    "Seat count falls",
+    "Zero SaaS calls",
 ]
 
 PROHIBITED_HTML = [

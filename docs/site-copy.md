@@ -74,6 +74,13 @@ Tabs:
 3. `Compress` / `Minimize human licenses`
 4. `Cut off` / `Answer without SaaS calls`
 
+Each selected phase card should include a high-quality synchronized visual:
+
+1. `Authorized foothold` — show the agent seated inside the legacy SaaS app, with email/API/browser routes being mapped.
+2. `One front door` — show human requests, reports, jobs, and data access routing through the agent before reaching SaaS or adjacent systems.
+3. `Seat count falls` — show human UI licenses compressing toward the minimum safe footprint while approval gates remain.
+4. `Zero SaaS calls` — show the legacy SaaS off path and owned workflows answering requests before the final switch.
+
 Initial phase card:
 
 - Title: `Seat the agent inside the SaaS app.`
